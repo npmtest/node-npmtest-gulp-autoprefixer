@@ -1,6 +1,6 @@
 # npmtest-gulp-autoprefixer
 
-#### test coverage for  [gulp-autoprefixer (v3.1.1)](https://github.com/sindresorhus/gulp-autoprefixer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-autoprefixer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-autoprefixer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-autoprefixer.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-autoprefixer)
+#### basic test coverage for  [gulp-autoprefixer (v3.1.1)](https://github.com/sindresorhus/gulp-autoprefixer#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-gulp-autoprefixer.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-gulp-autoprefixer) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-gulp-autoprefixer.svg)](https://travis-ci.org/npmtest/node-npmtest-gulp-autoprefixer)
 
 #### Prefix CSS
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-autoprefixer/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-gulp-autoprefixer/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-gulp-autoprefixer/build/coverage.html/index.html)
 
@@ -97,7 +97,8 @@
     "scripts": {
         "test": "xo && mocha"
     },
-    "version": "3.1.1"
+    "version": "3.1.1",
+    "bin": {}
 }
 ```
 
